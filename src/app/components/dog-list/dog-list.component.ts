@@ -30,7 +30,7 @@ export class DogListComponent implements OnInit {
    */
   addDog(){
     let d : Dog ={name: 'Dawg', breed: 'Dalmation', age: 5};
-    this.dogsService.addDog(d)
+    this.dogsService.addDog(d);
   }
 
   ngOnInit(): void {
