@@ -29,6 +29,8 @@ export class DogListComponent implements OnInit {
    * you should call the dogsService.addDog(newDog); method.
    */
   addDog(){
+    let d : Dog ={name: 'Dawg', breed: 'Dalmation', age: 5};
+    this.dogsService.addDog(d)
   }
 
   ngOnInit(): void {
